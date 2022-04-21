@@ -10,3 +10,5 @@
 Brain Even <a href="https://asciinema.org/a/488893" target="_blank"><img src="https://asciinema.org/a/488893.svg" /></a>
 
 Brain Calc <a href="https://asciinema.org/a/489018" target="_blank"><img src="https://asciinema.org/a/489018.svg" /></a>
+
+Brain GCD <a href="https://asciinema.org/a/489056" target="_blank"><img src="https://asciinema.org/a/489056.svg" /></a>
