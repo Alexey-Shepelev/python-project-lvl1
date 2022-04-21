@@ -5,4 +5,8 @@
 
 [![Github Actions Status](https://github.com/Alexey-Shepelev/python-project-lvl1/workflows/github-actions/badge.svg)](https://github.com/Alexey-Shepelev/python-project-lvl1/actions/workflows/github-actions.yml)
 
-Brain even <a href="https://asciinema.org/a/488893" target="_blank"><img src="https://asciinema.org/a/488893.svg" /></a>
+#BRAIN GAMES
+
+Brain Even <a href="https://asciinema.org/a/488893" target="_blank"><img src="https://asciinema.org/a/488893.svg" /></a>
+
+Brain Calc <a href="https://asciinema.org/a/489018" target="_blank"><img src="https://asciinema.org/a/489018.svg" /></a>
