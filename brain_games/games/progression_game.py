@@ -7,10 +7,6 @@ game_rule = 'What number is missing in the progression?'
 
 
 def get_question_and_solution():
-    from random import randint
-
-
-def get_question_and_solution():
 
     start_num = 0
     end_num = 90
