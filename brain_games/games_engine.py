@@ -18,6 +18,9 @@ def main_engine(game):
             print('Correct!')
             i += 1
         else:
-            i = 3 
-            game_over_msg = (f'"{user_answer}" is wrong anwer ;(. Correct answer was "{correct_answer}".\nLet\'s try again {user_name}!')
+            i = 3
+            game_over_msg = (
+                f'"{user_answer}" is wrong anwer ;(. Correct answer was'
+                ' "{correct_answer}".\nLet\'s try again {user_name}!'
+            )
     print(game_over_msg)

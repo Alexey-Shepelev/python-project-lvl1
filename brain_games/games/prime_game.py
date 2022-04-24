@@ -23,5 +23,5 @@ def get_question_and_solution():
         else:
             i += 1
             correct_answer = 'yes'
-            
+
     return (question, correct_answer)

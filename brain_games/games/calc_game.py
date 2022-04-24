@@ -15,8 +15,8 @@ def get_question_and_solution():
         ('*', member_1 * member_2)
     ]
     operator, expression = choice(operators)
-    
+
     question = str(member_1) + ' ' + operator + ' ' + str(member_2)
     correct_answer = str(expression)
 
-    return (question, correct_answer)   
+    return (question, correct_answer)
