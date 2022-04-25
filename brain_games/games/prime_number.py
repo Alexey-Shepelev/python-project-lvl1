@@ -20,7 +20,7 @@ def get_question_and_solution():
                 return('no')
             else:
                 i += 1
-            return('yes')
+        return('yes')
 
     correct_answer = is_prime(question)
 
