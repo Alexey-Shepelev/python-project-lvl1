@@ -3,7 +3,7 @@
 from random import randint
 
 
-game_rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_question_and_solution():

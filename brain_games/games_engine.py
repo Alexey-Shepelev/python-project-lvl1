@@ -7,7 +7,7 @@ def play_game(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
-    print(game.game_rule)
+    print(game.GAME_RULE)
     end_game_msg = (f'Congratulations, {user_name}!')
     i = 0
     for i in range(3):
