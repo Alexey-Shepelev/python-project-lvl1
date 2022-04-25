@@ -21,6 +21,6 @@ def main_engine(game):
             i = 3
             game_over_msg = (
                 f'"{user_answer}" is wrong anwer ;(. Correct answer was'
-                f' "{correct_answer}".\nLet\'s try again {user_name}!'
+                f' "{correct_answer}".\nLet\'s try again, {user_name}!'
             )
     print(game_over_msg)
