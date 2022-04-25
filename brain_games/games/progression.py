@@ -18,12 +18,12 @@ def get_question_and_solution():
 
     numbers_list = list(range(
         start_number, start_number + range_length * range_step, range_step))
+    numbers_list = [str(i) for i in numbers_list]
 
-    correct_answer = str(numbers_list[random_index])
+    correct_answer = numbers_list[random_index]
 
     numbers_list[random_index] = '..'
 
-    question = ''
-    for i in numbers_list:
-        question = question + str(i) + ' '
+    question = " ".join(numbers_list)
+
     return (question, correct_answer)
