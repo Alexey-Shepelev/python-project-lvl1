@@ -8,11 +8,15 @@
 # BRAIN GAMES
 Five simple math games.
 
-## Games launch:
+## Launch commands and games decription:
 ```brain-even``` - answer: if given number is even or not?
+
 ```brain-calc``` - find the decision of given expression.
+
 ```brain-gcd``` - find the greatest common divisor of two given numbers.
+
 ```brain-progression``` - find missing number in given progression.
+
 ```brain-prime``` - answer: if given number is prime or not?
 
 Brain Even <a href="https://asciinema.org/a/488893" target="_blank"><img src="https://asciinema.org/a/488893.svg" /></a>
