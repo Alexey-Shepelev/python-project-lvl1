@@ -16,14 +16,14 @@ def get_question_and_solution():
     range_step = randint(1, 5)
     random_index = randint(1, range_length - 1)
 
-    numbers_list = list(range(
+    progression = list(range(
         start_number, start_number + range_length * range_step, range_step))
-    numbers_list = [str(i) for i in numbers_list]
+    progression = [str(i) for i in progression]
 
-    correct_answer = numbers_list[random_index]
+    correct_answer = progression[random_index]
 
-    numbers_list[random_index] = '..'
+    progression[random_index] = '..'
 
-    question = " ".join(numbers_list)
+    question = " ".join(progression)
 
     return (question, correct_answer)
