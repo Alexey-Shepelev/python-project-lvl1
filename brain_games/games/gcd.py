@@ -6,6 +6,17 @@ from random import randint
 GAME_RULE = 'Find the greatest common divisor of given numbers.'
 
 
+def find_gcd(a, b):
+    if a < b:
+        a, b = b, a
+    div_remainder = a % b
+    while div_remainder != 0:
+        a = b
+        b = div_remainder
+        div_remainder = a % b
+    return b
+
+
 def get_question_and_solution():
     start_num = 1
     end_num = 10
@@ -13,16 +24,6 @@ def get_question_and_solution():
     number_2 = randint(start_num, end_num)
 
     question = str(number_1) + ' ' + str(number_2)
-
-    def find_gcd(a, b):
-        if a < b:
-            a, b = b, a
-        div_remainder = a % b
-        while div_remainder != 0:
-            a = b
-            b = div_remainder
-            div_remainder = a % b
-        return b
 
     correct_answer = str(find_gcd(number_1, number_2))
     return(question, correct_answer)
