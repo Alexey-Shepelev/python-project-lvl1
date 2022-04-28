@@ -18,7 +18,7 @@ def get_question_and_solution():
     else:
         expression = random_num1 * random_num2
 
-    question = str(random_num1) + ' ' + operator + ' ' + str(random_num2)
+    question = f'{random_num1} {operator} {random_num2}'
     correct_answer = str(expression)
 
     return (question, correct_answer)
