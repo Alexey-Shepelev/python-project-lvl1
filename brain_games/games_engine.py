@@ -8,8 +8,8 @@ def play(game):
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
     print(game.GAME_RULE)
-    max_rounds = 3
-    for round in range(max_rounds):
+    MAX_ROUNDS = 3
+    for _ in range(MAX_ROUNDS):
         question, correct_answer = game.get_question_and_solution()
         print(f'Question: {question}')
         user_answer = input('Your answer: ')
