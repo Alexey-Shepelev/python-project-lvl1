@@ -19,11 +19,11 @@ def find_gcd(a, b):
 
 def get_question_and_solution():
     start_num = 1
-    end_num = 10
+    end_num = 20
     number_1 = randint(start_num, end_num)
     number_2 = randint(start_num, end_num)
 
-    question = str(number_1) + ' ' + str(number_2)
+    question = f'{number_1} {number_2}'
 
     correct_answer = str(find_gcd(number_1, number_2))
     return(question, correct_answer)
