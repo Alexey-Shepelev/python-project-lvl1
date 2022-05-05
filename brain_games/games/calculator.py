@@ -13,7 +13,7 @@ def get_question_and_solution():
         expression = random_num1 + random_num2
     elif operator == '-':
         expression = random_num1 - random_num2
-    else:
+    elif operator == '*':
         expression = random_num1 * random_num2
 
     question = f'{random_num1} {operator} {random_num2}'
