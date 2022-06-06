@@ -8,9 +8,18 @@ coverage.xml
 .pytest_cache/
 .vim
 .vscode
+<<<<<<< HEAD
 /.idea/misc.xml
 /.idea/vcs.xml
 /.idea/python-project-lvl1.iml
 /.idea/inspectionProfiles/profiles_settings.xml
 /.idea/modules.xml
 /.idea/.gitignore
+=======
+.idea/misc.xml
+.idea/modules.xml
+.idea/python-project-lvl1.iml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/.gitignore
+>>>>>>> fd7fbf9494ef71274f02da29771a9338386ac7da
